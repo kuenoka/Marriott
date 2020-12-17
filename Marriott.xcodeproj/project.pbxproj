@@ -15,6 +15,7 @@
 		8FABC382258B0A120062C65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABC380258B0A120062C65D /* Main.storyboard */; };
 		8FABC384258B0A190062C65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FABC383258B0A190062C65D /* Assets.xcassets */; };
 		8FABC387258B0A190062C65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABC385258B0A190062C65D /* LaunchScreen.storyboard */; };
+		8FABC391258B25BC0062C65D /* UIThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC390258B25BC0062C65D /* UIThemes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8FABC383258B0A190062C65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FABC386258B0A190062C65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FABC388258B0A190062C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FABC390258B25BC0062C65D /* UIThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIThemes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			children = (
 				8FABC37E258B0A120062C65D /* ViewController.swift */,
 				5264A080258B0E43004E6E6F /* ContactViewController.swift */,
+				8FABC390258B25BC0062C65D /* UIThemes.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,8 +90,8 @@
 				5264A089258B0E6A004E6E6F /* Model */,
 				5264A088258B0E65004E6E6F /* ViewModel */,
 				5264A087258B0E60004E6E6F /* View */,
-				8FABC37A258B0A120062C65D /* AppDelegate.swift */,
 				8FABC37C258B0A120062C65D /* SceneDelegate.swift */,
+				8FABC37A258B0A120062C65D /* AppDelegate.swift */,
 				8FABC380258B0A120062C65D /* Main.storyboard */,
 				8FABC383258B0A190062C65D /* Assets.xcassets */,
 				8FABC385258B0A190062C65D /* LaunchScreen.storyboard */,
@@ -170,6 +173,7 @@
 				8FABC37F258B0A120062C65D /* ViewController.swift in Sources */,
 				5264A081258B0E43004E6E6F /* ContactViewController.swift in Sources */,
 				5264A084258B0E57004E6E6F /* ContactViewModel.swift in Sources */,
+				8FABC391258B25BC0062C65D /* UIThemes.swift in Sources */,
 				8FABC37B258B0A120062C65D /* AppDelegate.swift in Sources */,
 				8FABC37D258B0A120062C65D /* SceneDelegate.swift in Sources */,
 			);
