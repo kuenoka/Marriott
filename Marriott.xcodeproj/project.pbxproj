@@ -10,6 +10,7 @@
 		5264A081258B0E43004E6E6F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A080258B0E43004E6E6F /* ContactViewController.swift */; };
 		5264A084258B0E57004E6E6F /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A083258B0E57004E6E6F /* ContactViewModel.swift */; };
 		5264A09D258B3087004E6E6F /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A09C258B3087004E6E6F /* StatusViewController.swift */; };
+		64112F69BA28CCB0F4E0EA5A /* Pods_Marriott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732FAF33441645C96BD5E17D /* Pods_Marriott.framework */; };
 		8FABC37B258B0A120062C65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37A258B0A120062C65D /* AppDelegate.swift */; };
 		8FABC37D258B0A120062C65D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37C258B0A120062C65D /* SceneDelegate.swift */; };
 		8FABC37F258B0A120062C65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37E258B0A120062C65D /* ViewController.swift */; };
@@ -21,9 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D59D5A7D48781418B399AFE /* Pods-Marriott.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marriott.release.xcconfig"; path = "Target Support Files/Pods-Marriott/Pods-Marriott.release.xcconfig"; sourceTree = "<group>"; };
 		5264A080258B0E43004E6E6F /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		5264A083258B0E57004E6E6F /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		5264A09C258B3087004E6E6F /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		732FAF33441645C96BD5E17D /* Pods_Marriott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marriott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FABC377258B0A120062C65D /* Marriott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marriott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FABC37A258B0A120062C65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FABC37C258B0A120062C65D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		8FABC388258B0A190062C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FABC390258B25BC0062C65D /* UIThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIThemes.swift; sourceTree = "<group>"; };
 		8FABC3AF258B3F120062C65D /* GloballyApplicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloballyApplicable.swift; sourceTree = "<group>"; };
+		A862CC2EEE99476D468251BF /* Pods-Marriott.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marriott.debug.xcconfig"; path = "Target Support Files/Pods-Marriott/Pods-Marriott.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64112F69BA28CCB0F4E0EA5A /* Pods_Marriott.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +76,8 @@
 			children = (
 				8FABC379258B0A120062C65D /* Marriott */,
 				8FABC378258B0A120062C65D /* Products */,
+				AAA97AAA33B91E38CA87BEAA /* Pods */,
+				CA575A7712713D8FDDE24A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +113,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		AAA97AAA33B91E38CA87BEAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A862CC2EEE99476D468251BF /* Pods-Marriott.debug.xcconfig */,
+				0D59D5A7D48781418B399AFE /* Pods-Marriott.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA575A7712713D8FDDE24A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732FAF33441645C96BD5E17D /* Pods_Marriott.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FABC38B258B0A190062C65D /* Build configuration list for PBXNativeTarget "Marriott" */;
 			buildPhases = (
+				BF6A07CBA525FB97D5DD7913 /* [CP] Check Pods Manifest.lock */,
 				8FABC373258B0A120062C65D /* Sources */,
 				8FABC374258B0A120062C65D /* Frameworks */,
 				8FABC375258B0A120062C65D /* Resources */,
+				6115A12FEE5FF1FD535AE21C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +197,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6115A12FEE5FF1FD535AE21C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marriott/Pods-Marriott-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marriott/Pods-Marriott-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marriott/Pods-Marriott-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6A07CBA525FB97D5DD7913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marriott-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FABC373258B0A120062C65D /* Sources */ = {
@@ -327,6 +396,7 @@
 		};
 		8FABC38C258B0A190062C65D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A862CC2EEE99476D468251BF /* Pods-Marriott.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +416,7 @@
 		};
 		8FABC38D258B0A190062C65D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D59D5A7D48781418B399AFE /* Pods-Marriott.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
