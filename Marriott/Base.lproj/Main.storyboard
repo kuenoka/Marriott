@@ -58,11 +58,11 @@
                         <viewLayoutGuide key="safeArea" id="OHD-7b-as9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Status" id="fFk-0F-al1"/>
+                    <tabBarItem key="tabBarItem" title="Status" image="status" id="fFk-0F-al1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1Y-G8-hDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1069" y="-225"/>
+            <point key="canvasLocation" x="-1071" y="-843"/>
         </scene>
         <!--Contact-->
         <scene sceneID="Pfx-C8-faB">
@@ -113,11 +113,52 @@
                         <viewLayoutGuide key="safeArea" id="BMl-X2-gpb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" id="4A9-9N-g6a"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="contact_us" id="4A9-9N-g6a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DR8-md-Y5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1071.0144927536232" y="1218.75"/>
+            <point key="canvasLocation" x="-1071" y="586"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="uJd-79-eUt">
+            <objects>
+                <viewController id="D0t-Jq-U8c" customClass="MoreViewController" customModule="Marriott" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="amY-Fi-Q6W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yeU-te-co9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="tXI-gX-3bG">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tXI-gX-3bG" id="2Px-Sg-ZHF">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vdG-BM-Qor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yeU-te-co9" firstAttribute="leading" secondItem="vdG-BM-Qor" secondAttribute="leading" id="Ntg-aF-A98"/>
+                            <constraint firstItem="vdG-BM-Qor" firstAttribute="bottom" secondItem="yeU-te-co9" secondAttribute="bottom" id="dBO-Zl-LYf"/>
+                            <constraint firstItem="yeU-te-co9" firstAttribute="top" secondItem="vdG-BM-Qor" secondAttribute="top" id="l0f-d4-Y0x"/>
+                            <constraint firstItem="vdG-BM-Qor" firstAttribute="trailing" secondItem="yeU-te-co9" secondAttribute="trailing" id="yAa-kd-KbZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="More" image="more" id="95d-vw-SCj"/>
+                    <connections>
+                        <outlet property="tblView" destination="yeU-te-co9" id="pGK-gd-zrD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G6n-gp-Dgm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1071" y="1313"/>
         </scene>
         <!--Parking-->
         <scene sceneID="BST-Vz-ZMw">
@@ -129,11 +170,11 @@
                         <viewLayoutGuide key="safeArea" id="DP9-T1-Rba"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Parking" id="ml0-wa-hN2"/>
+                    <tabBarItem key="tabBarItem" title="Parking" image="parking" id="ml0-wa-hN2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vg5-cy-ECa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1071" y="-842"/>
+            <point key="canvasLocation" x="-1071" y="-1547"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UIv-xA-o6n">
@@ -149,6 +190,7 @@
                         <segue destination="8p9-8n-7Fl" kind="relationship" relationship="viewControllers" id="E37-46-7GI"/>
                         <segue destination="DFA-eV-KR3" kind="relationship" relationship="viewControllers" id="4KK-ue-fHC"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dPx-3t-YGi"/>
+                        <segue destination="D0t-Jq-U8c" kind="relationship" relationship="viewControllers" id="6b5-GA-hSi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IAh-gj-rxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -175,15 +217,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Extend" id="t5o-5P-eQV"/>
+                    <tabBarItem key="tabBarItem" title="Extend" image="extend" id="t5o-5P-eQV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1070" y="459"/>
+            <point key="canvasLocation" x="-1071" y="-129"/>
         </scene>
     </scenes>
     <resources>
+        <image name="contact_us" width="24" height="24"/>
+        <image name="extend" width="24" height="24"/>
+        <image name="more" width="24" height="24"/>
+        <image name="parking" width="24" height="24"/>
         <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="status" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

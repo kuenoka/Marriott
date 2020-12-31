@@ -10,6 +10,7 @@
 		5264A081258B0E43004E6E6F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A080258B0E43004E6E6F /* ContactViewController.swift */; };
 		5264A084258B0E57004E6E6F /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A083258B0E57004E6E6F /* ContactViewModel.swift */; };
 		5264A09D258B3087004E6E6F /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264A09C258B3087004E6E6F /* StatusViewController.swift */; };
+		52CF75202592FDF000CA665E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF751F2592FDF000CA665E /* MoreViewController.swift */; };
 		64112F69BA28CCB0F4E0EA5A /* Pods_Marriott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732FAF33441645C96BD5E17D /* Pods_Marriott.framework */; };
 		8F7BF1732592EA2100B1FFB6 /* Sign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BF1722592EA2000B1FFB6 /* Sign.storyboard */; };
 		8F7BF1952592F40200B1FFB6 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BF1942592F40200B1FFB6 /* SignViewController.swift */; };
@@ -28,6 +29,7 @@
 		5264A080258B0E43004E6E6F /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		5264A083258B0E57004E6E6F /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		5264A09C258B3087004E6E6F /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		52CF751F2592FDF000CA665E /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		732FAF33441645C96BD5E17D /* Pods_Marriott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marriott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7BF1722592EA2000B1FFB6 /* Sign.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sign.storyboard; sourceTree = "<group>"; };
 		8F7BF1942592F40200B1FFB6 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				5264A080258B0E43004E6E6F /* ContactViewController.swift */,
 				8FABC390258B25BC0062C65D /* UIThemes.swift */,
 				5264A09C258B3087004E6E6F /* StatusViewController.swift */,
+				52CF751F2592FDF000CA665E /* MoreViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CF75202592FDF000CA665E /* MoreViewController.swift in Sources */,
 				5264A09D258B3087004E6E6F /* StatusViewController.swift in Sources */,
 				8FABC37F258B0A120062C65D /* ViewController.swift in Sources */,
 				5264A081258B0E43004E6E6F /* ContactViewController.swift in Sources */,
