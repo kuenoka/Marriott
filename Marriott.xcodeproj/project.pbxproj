@@ -14,6 +14,7 @@
 		64112F69BA28CCB0F4E0EA5A /* Pods_Marriott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732FAF33441645C96BD5E17D /* Pods_Marriott.framework */; };
 		8F7BF1732592EA2100B1FFB6 /* Sign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BF1722592EA2000B1FFB6 /* Sign.storyboard */; };
 		8F7BF1952592F40200B1FFB6 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BF1942592F40200B1FFB6 /* SignViewController.swift */; };
+		8F89031A25A686100061EE14 /* UrlProtocolClassOverridden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89031925A686100061EE14 /* UrlProtocolClassOverridden.swift */; };
 		8FABC37B258B0A120062C65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37A258B0A120062C65D /* AppDelegate.swift */; };
 		8FABC37D258B0A120062C65D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37C258B0A120062C65D /* SceneDelegate.swift */; };
 		8FABC37F258B0A120062C65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC37E258B0A120062C65D /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		8FABC387258B0A190062C65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABC385258B0A190062C65D /* LaunchScreen.storyboard */; };
 		8FABC391258B25BC0062C65D /* UIThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC390258B25BC0062C65D /* UIThemes.swift */; };
 		8FABC3B0258B3F120062C65D /* GloballyApplicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC3AF258B3F120062C65D /* GloballyApplicable.swift */; };
+		8FD74B3125B13DB40059DE40 /* SUpErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD74B3025B13DB40059DE40 /* SUpErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		732FAF33441645C96BD5E17D /* Pods_Marriott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marriott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7BF1722592EA2000B1FFB6 /* Sign.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sign.storyboard; sourceTree = "<group>"; };
 		8F7BF1942592F40200B1FFB6 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		8F89031925A686100061EE14 /* UrlProtocolClassOverridden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlProtocolClassOverridden.swift; sourceTree = "<group>"; };
 		8FABC377258B0A120062C65D /* Marriott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marriott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FABC37A258B0A120062C65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FABC37C258B0A120062C65D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		8FABC388258B0A190062C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FABC390258B25BC0062C65D /* UIThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIThemes.swift; sourceTree = "<group>"; };
 		8FABC3AF258B3F120062C65D /* GloballyApplicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloballyApplicable.swift; sourceTree = "<group>"; };
+		8FD74B3025B13DB40059DE40 /* SUpErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpErrors.swift; sourceTree = "<group>"; };
 		A862CC2EEE99476D468251BF /* Pods-Marriott.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marriott.debug.xcconfig"; path = "Target Support Files/Pods-Marriott/Pods-Marriott.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +62,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5264A087258B0E60004E6E6F /* View */ = {
+		5264A087258B0E60004E6E6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				8FABC37E258B0A120062C65D /* ViewController.swift */,
@@ -67,15 +71,15 @@
 				5264A09C258B3087004E6E6F /* StatusViewController.swift */,
 				52CF751F2592FDF000CA665E /* MoreViewController.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		5264A088258B0E65004E6E6F /* ViewModel */ = {
+		5264A088258B0E65004E6E6F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				5264A083258B0E57004E6E6F /* ContactViewModel.swift */,
 			);
-			path = ViewModel;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		8F7BF1752592EA4800B1FFB6 /* SignInModule */ = {
@@ -85,6 +89,15 @@
 				8F7BF1942592F40200B1FFB6 /* SignViewController.swift */,
 			);
 			path = SignInModule;
+			sourceTree = "<group>";
+		};
+		8F89030F25A684010061EE14 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				8F89031925A686100061EE14 /* UrlProtocolClassOverridden.swift */,
+				8FD74B3025B13DB40059DE40 /* SUpErrors.swift */,
+			);
+			path = Networks;
 			sourceTree = "<group>";
 		};
 		8FABC36E258B0A120062C65D = {
@@ -108,9 +121,10 @@
 		8FABC379258B0A120062C65D /* Marriott */ = {
 			isa = PBXGroup;
 			children = (
+				8F89030F25A684010061EE14 /* Networks */,
 				8FABC3AE258B3EFB0062C65D /* Models */,
-				5264A088258B0E65004E6E6F /* ViewModel */,
-				5264A087258B0E60004E6E6F /* View */,
+				5264A088258B0E65004E6E6F /* ViewModels */,
+				5264A087258B0E60004E6E6F /* Views */,
 				8FABC37C258B0A120062C65D /* SceneDelegate.swift */,
 				8FABC37A258B0A120062C65D /* AppDelegate.swift */,
 				8FABC380258B0A120062C65D /* Main.storyboard */,
@@ -271,7 +285,9 @@
 				8FABC37B258B0A120062C65D /* AppDelegate.swift in Sources */,
 				8FABC3B0258B3F120062C65D /* GloballyApplicable.swift in Sources */,
 				8F7BF1952592F40200B1FFB6 /* SignViewController.swift in Sources */,
+				8F89031A25A686100061EE14 /* UrlProtocolClassOverridden.swift in Sources */,
 				8FABC37D258B0A120062C65D /* SceneDelegate.swift in Sources */,
+				8FD74B3125B13DB40059DE40 /* SUpErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
